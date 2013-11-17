@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+        <style>
+            body {background-color:#222222;}
+        </style>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Energy Forecast Chart</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+$(function () {
+        $('#container').highcharts({
+            chart: { backgroundColor:'transparent'},
+            title: {
+                text: 'Energy Demand',
+                x: -20 //center
+            },
+            xAxis: {
+				categories: ['-8:00','-7:45','-7:30','-7:15','-7:00','-6:45','-6:30','-6:15','-6:00','-5:45','-5:30','-5:15','-5:00','-4:45','-4:30','-4:15','-4:00','-3:45','-3:30','-3:15','-3:00','-2:45','-2:30','-2:15','-2:00','-1:45','-1:30','-1:15','-1:00','-0:45','-0:30','-0:15','Current Time','+0:15','+0:30','+0:45','+1:00','+1:15','+1:30','+1:45','+2:00','+2:15','+2:30','+2:45','+3:00','+3:15','+3:30','+3:45','+4:00','+4:15','+4:30','+4:45','+5:00','+5:15','+5:30','+5:45','+6:00','+6:15','+6:30','+6:45','+7:00','+7:15','+7:30','+7:45','+8:00','+8:15','+8:30','+8:45','+9:00','+9:15','+9:30','+9:45','+10:00','+10:15','+10:30','+10:45','+11:00','+11:15','+11:30','+11:45','+12:00','+12:15','+12:30','+12:45','+13:00','+13:15','+13:30','+13:45','+14:00','+14:15','+14:30','+14:45','+15:00','+15:15','+15:30','+15:45','+16:00']
+            },
+			
+            yAxis: {
+                title: {
+                    text: 'Energy (kW)'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                valueSuffix: 'kW'
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                borderWidth: 0
+            },
+			
+            series: [{
+                name: 'Energy Demand',
+				data: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,-845,46,47,48,49,50,51,52,53,54,550,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94.95,96,97],
+            }]
+        });
+    });
+		</script>
+	</head>
+	<body>
+<script src="../../../static/js/highcharts.js"></script>
+<script src="../../../static/js/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<script type="text/javascript">
+	$(window).load(function(){
+	  var times = document.getElementsByClassName("highcharts-axis-labels")[0];
+	  for (var i = 0; i < times.childNodes.length; i++) {
+		if (i % 4 != 0) {
+			times.childNodes[i].setAttribute('opacity', 0);
+		}
+	  }
+	 });
+</script>
+	</body>
+</html>
