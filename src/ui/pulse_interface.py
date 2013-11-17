@@ -54,8 +54,6 @@ def main():
   power_raw = ast.literal_eval(power_raw)
   power_raw = json_to_list(power_raw)
 
-  for x in power_raw:
-    print x
 
   radiation_raw = get_pulse_json(radiation_code,query_date)
   radiation_raw = ast.literal_eval(radiation_raw)
@@ -84,7 +82,7 @@ def main():
     if x[1] != -1:
       power_stripped.append(x[1])
     else:
-      power_stripped.append('')
+      power_stripped.append('null')
   
   radiation_interleaved = interleave_weather(dates,radiation_raw)
   humidity_interleaved = interleave_weather(dates,humidity_raw)
@@ -92,7 +90,7 @@ def main():
   wind_interleaved = interleave_weather(dates,wind_raw)
   
   d_pulse = dict(date=dates, radiation=radiation_interleaved,humidity = humidity_interleaved,temperature=temperature_interleaved, wind=wind_interleaved, demand=power_stripped)
-
+  #print d_pulse['demand']
 
   
 if __name__ == "__main__":
