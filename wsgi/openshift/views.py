@@ -9,7 +9,7 @@ from .forms import UploadFileForm
 from django.core.files import File
 
 def home(request):
-    return render_to_response('home/home.html')
+  return render_to_response('home/home.html')
 
 # weather interpolation
 def interpolate(input):
