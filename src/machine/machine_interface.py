@@ -14,8 +14,18 @@ def interpolate(input):
   # generate xs and ys for polyfit
   x = []
   y = []
+  
+  if input[0] != "":
+    starts_at = 0
+  elif input[1] != "":
+    starts_at = 1
+  elif input[2] != "":
+    starts_at = 2
+  elif input[3] != "":
+    starts_at = 3
+  
   for i in range(len(input)):
-    if i % 4 != 0:
+    if i % 4 != starts_at:
       continue
     input[i] = float(input[i])
     x.append(float(i))
@@ -28,7 +38,7 @@ def interpolate(input):
   f = lambda z: (np.poly1d(np.polyfit(xs[:7], ys[:7], 6)))(z) if 0 <= z <= 23  else ((np.poly1d(np.polyfit(xs[6:13], ys[6:13], 6)))(z) if 24 <= z <= 47 else ((np.poly1d(np.polyfit(xs[12:19], ys[12:19], 6)))(z) if 48 <= z <= 71  else ((np.poly1d(np.polyfit(xs[18:], ys[18:], 5)))(z) if 72 <= z <= 95 else None)))
 
   for k in range(len(input)):
-    if k % 4 == 0:
+    if k % 4 == starts_at:
       continue
     input[k] = f(float(k))
 
