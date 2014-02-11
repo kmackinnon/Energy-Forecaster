@@ -90,8 +90,11 @@ def main():
   wind_interleaved = interleave_weather(dates,wind_raw)
   
   d_pulse = dict(date=dates, radiation=radiation_interleaved,humidity = humidity_interleaved,temperature=temperature_interleaved, wind=wind_interleaved, demand=power_stripped)
-  #print d_pulse['demand']
-
+  for item in d_pulse['dates']:
+	f = open('output.txt',"a")
+	f.write(str(item))
+	print d_pulse['dates']
+  f.close()
   
 if __name__ == "__main__":
     main()

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+        <style>
+            body {background-color:#222222;}
+        </style>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Energy Forecast Chart</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+$(function () {
+        $('#container').highcharts({
+            chart: { backgroundColor:'transparent'},
+            title: {
+                text: 'Energy Demand',
+                x: -20 //center
+            },
+            xAxis: {
+                categories: ['-23', '-22', '-21', '-20', '-19', '-18', '-17', '-16', '-15', '-14', '-13', '-12', '-11', '-10', '-9', '-8', '-7', '-6', '-5', '-4', '-3', '-2', '-1', 'Current Time', '+1', '+2', '+3', '+4', '+5', '+6', '+7', '+8', '+9', '+10', '+11', '+12', '+13', '+14', '+15', '+16']
+            },
+            yAxis: {
+                title: {
+                    text: 'Energy (kW)'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                valueSuffix: 'kW'
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle',
+                borderWidth: 0
+            },
+            series: [{
+                name: 'Energy Demand',
+                data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6, null, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 10, 3, 2, null, null]
+            }]
+        });
+    });
+		</script>
+	</head>
+	<body>
+<script src="static/js/highcharts.js"></script>
+<script src="static/js/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<br>
+<
+	</body>
+</html>

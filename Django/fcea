@@ -1,0 +1,587 @@
+[33mcommit 1a60caa2312ecad2bd635898ec82ef44ec337e56[m
+Author: Andreas Brake <A>
+Date:   Fri Feb 7 14:30:51 2014 -0500
+
+    no but really this time
+
+[33mcommit e3f35fa18624f0b735c90e61705bf55290f4a6cb[m
+Author: Andreas Brake <A>
+Date:   Fri Feb 7 14:11:37 2014 -0500
+
+    actually fixed 15min data loss
+
+[33mcommit edac00eea0082a06ae1ff7d52bf12bc13abdb0be[m
+Author: Andreas Brake <A>
+Date:   Fri Feb 7 13:54:13 2014 -0500
+
+    attempted fix for 0 data every 15 min
+
+[33mcommit a864eddbeaea5a09cd26ceb84b83f6b177b71a29[m
+Author: Andreas Brake <A>
+Date:   Fri Feb 7 01:16:06 2014 -0500
+
+    made stuff pretty
+
+[33mcommit ecc492477a10b9e5f39e7081db040f8e22dc6b5e[m
+Author: Andreas Brake <A>
+Date:   Fri Feb 7 00:53:44 2014 -0500
+
+    Machine Learninggit add --all
+
+[33mcommit 8b303fb06c7f29540b073dddf1f1f7f5ea5ac72f[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 30 22:56:48 2013 -0500
+
+    redid homepage
+
+[33mcommit 75176f59af99e3076b9e89d04361b9d5982d5eec[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 30 04:11:03 2013 -0500
+
+    added some extrapolation
+
+[33mcommit e5715979446b170a04040adc32c2e2fd0f8bd6d9[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 30 03:00:21 2013 -0500
+
+    made things pretty
+
+[33mcommit 826e65e668e672cdda32192dfa6a2fd0da29b102[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 29 04:27:31 2013 -0500
+
+    added title, removed export button
+
+[33mcommit bf2fdf2299ef5761ff87ede06300f2ef47ff590e[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 27 00:47:59 2013 -0500
+
+    changed the way the data is parsed a bit
+
+[33mcommit 75aeb518c736f1b187cbfc5d3a288a749c0c8a0b[m
+Author: Andreas Brake <A>
+Date:   Tue Nov 26 05:56:20 2013 -0500
+
+    last date change (for now)
+
+[33mcommit 601265e06baf67fcb941c02a9281e716a3119476[m
+Author: Andreas Brake <A>
+Date:   Tue Nov 26 05:49:02 2013 -0500
+
+    changed dates again
+
+[33mcommit 786823f53dfd2c2d87da80cf562f154a246b757a[m
+Author: Andreas Brake <A>
+Date:   Tue Nov 26 04:49:48 2013 -0500
+
+    modified date range
+
+[33mcommit ca128a516572d341c725cae76fd2565671846847[m
+Author: Andreas Brake <A>
+Date:   Tue Nov 26 04:25:59 2013 -0500
+
+    added historical data to the graphs
+
+[33mcommit eacb6cf7d5093b870b726b6ac5082ff3df5db1dc[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 25 23:08:27 2013 -0500
+
+    Added two more charts
+
+[33mcommit ccb34b91c608998b7dfe62a71db710da56512c39[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 25 23:00:17 2013 -0500
+
+    extended time frame
+
+[33mcommit ab46ed62924f205ac8380147e2c899995028c2b7[m
+Author: Andreas Brake <A>
+Date:   Sun Nov 24 12:06:37 2013 -0500
+
+    re aranged time
+
+[33mcommit 7b018ccf135e15a8fe87fefe2861e430d91b5ef1[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 23:42:48 2013 -0500
+
+    fix?
+
+[33mcommit 89a9e0cef3d40829a071f2543b0148a84a7bf342[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 23:28:21 2013 -0500
+
+    fixed time shift
+
+[33mcommit 7fe9bbb2e9c2e0e314edec90a50b02511c7de9f9[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 23:11:41 2013 -0500
+
+    shortened time frame
+
+[33mcommit be9d6976946af062a9d67fd5591eff6ffe864204[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 18:39:12 2013 -0500
+
+    added a temp chart
+
+[33mcommit b1c574000b1d2a619ed72095069e2fc84fc872ae[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 15:25:20 2013 -0500
+
+    changed time shift again
+
+[33mcommit c6f2840f750e1b467d639810483641b309760a3d[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 14:55:04 2013 -0500
+
+    changed time shift
+
+[33mcommit 8dfe0db6deea73b6bab21a38150a11105fca26e6[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 14:44:22 2013 -0500
+
+    removed temp chart
+
+[33mcommit 9007979eee08c85e6236a2ed8836fabd9d6e070e[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 14:15:17 2013 -0500
+
+    modified time shift
+
+[33mcommit 42588e26b06d5b71638003d262dd0db994800ddc[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 14:06:52 2013 -0500
+
+    removed graphs to stop timing out
+
+[33mcommit eec6cb244449622058b35ecc1dc2ac0f895dcaa3[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 13:58:39 2013 -0500
+
+    added additional graphs
+
+[33mcommit f72bb90d164ea225284af618000d952f92caec04[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 13:13:19 2013 -0500
+
+    changed date range
+
+[33mcommit a7e25d013b43da6011480f3d81c8727f7d242660[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 12:55:34 2013 -0500
+
+    fixed url typo
+
+[33mcommit 3a6a34ffc276846f0e08cd3ce85135226ae138b8[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 12:52:02 2013 -0500
+
+    added pulse_data to provide numerical insight
+
+[33mcommit 30cfc7ba23240d2dedff5b3140e7e043bb4694fe[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 04:43:28 2013 -0500
+
+    adjusted time adjustment
+
+[33mcommit c6473d233a9cc896e76385343c4fd6a5f77dd08f[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 03:55:13 2013 -0500
+
+    added time adjustment
+
+[33mcommit 833d078a4047b5e198a64e3c995c717e594a8abc[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 03:25:20 2013 -0500
+
+    fixed averaging
+
+[33mcommit 054c4245359da12018e486f3618042098c50502c[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 03:04:48 2013 -0500
+
+    did some averaging
+
+[33mcommit 99d58ca22e698b42b70cd9fb716238b4956e218f[m
+Author: Andreas Brake <A>
+Date:   Sat Nov 23 02:28:30 2013 -0500
+
+    added in pulse stuff
+
+[33mcommit 56e939c04b111b5d60cd6c92253419053ec8b214[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 19:12:30 2013 -0500
+
+    returned try:except: to the application file
+
+[33mcommit cad7b5c0f114823defbcddb99611b2c7951e3d03[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 18:56:38 2013 -0500
+
+    added back methods. Used dummy list instead of machine learning
+
+[33mcommit a6f40597abe2c2bd188c546cf66131efa847e428[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 18:52:23 2013 -0500
+
+    commented the sklearn import
+
+[33mcommit 0cc157fcfb68f52e3940230ecdd5417a2a3ea0e8[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 18:21:14 2013 -0500
+
+    Testing sklearn
+
+[33mcommit 5058feb0a3b40b496f646376837f935937999666[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 18:18:23 2013 -0500
+
+    Testing File and csrf
+
+[33mcommit 57a964b40ee7b2cafb98fefd08cc5da8a8d86eeb[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 17:32:48 2013 -0500
+
+    Testing numpy import
+
+[33mcommit 05358b0d674993ba7c1f8f0b4ac93e260cb9af0c[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 17:15:18 2013 -0500
+
+    still timing out. Isolating the offending import
+
+[33mcommit 5a92871c6f20a29b32fb5a6d8f63e20ea5d272da[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 17:00:36 2013 -0500
+
+    starting adding back imports
+
+[33mcommit 633084ddcc2be700519e1ae95e0463c0561671d4[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 16:54:26 2013 -0500
+
+    removed all from views
+
+[33mcommit dcba3a49113a1ec43dc7995dd98097e03e6a5714[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 16:40:30 2013 -0500
+
+    fixed a syntax error
+
+[33mcommit 5d274d1bfee42507ec52610795ce8ede844006d5[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 16:34:13 2013 -0500
+
+    changed some application names
+
+[33mcommit 57844e274950da1e76ee10777906a81b1ea09edd[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 16:07:29 2013 -0500
+
+    changes stuff
+
+[33mcommit 368fd014e54c89a17be31caa8d2e98e7abfad87f[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 14:39:06 2013 -0500
+
+    removed try-except
+
+[33mcommit b05a408d6ad0674826aa698a20d13a6e9483f84a[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 14:29:12 2013 -0500
+
+    fixed more application typos
+
+[33mcommit 8a21590c481eccb6a042cc8128653273e04753ab[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 13:15:50 2013 -0500
+
+    fixed another application typo
+
+[33mcommit 3ba5e1d51627899a1ae386934c59ecf6124945ad[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 13:09:14 2013 -0500
+
+    fixed application typo
+
+[33mcommit 8658f7fbf049557708bb8c289ce683b6f412ef3b[m
+Author: Andreas Brake <A>
+Date:   Fri Nov 22 03:43:28 2013 -0500
+
+    got things to work locally
+
+[33mcommit 29fc6c36470fe25baaf310cbf5f769b15256b406[m
+Author: Andreas Brake <A>
+Date:   Thu Nov 21 16:16:19 2013 -0500
+
+    fixed logging typo
+
+[33mcommit 6354a8d19ecdd91ee00277dd1957bbe16b153cb7[m
+Author: Andreas Brake <A>
+Date:   Thu Nov 21 16:12:14 2013 -0500
+
+    tried something new and added logging
+
+[33mcommit 049f9bfc17e70b29d756f15ea7074b70ae32a9c4[m
+Author: Andreas Brake <A>
+Date:   Thu Nov 21 14:28:53 2013 -0500
+
+    no var named APPDIR changed to VIRTUAL_ENV
+
+[33mcommit 3040c4c3378566117c29dd99daedc0ae43fa9bc2[m
+Author: Andreas Brake <A>
+Date:   Thu Nov 21 13:53:46 2013 -0500
+
+    moved stuff around in wsgi.application
+
+[33mcommit 216b3abeceb940cfd1832ebbee6f4de6397a4343[m
+Author: Andreas Brake <A>
+Date:   Thu Nov 21 13:35:07 2013 -0500
+
+    changed python_egg_cache to python2.7 from python2.6
+
+[33mcommit 923a926401c30ccdd7ea7677be9d9b7d088fb29c[m
+Author: Andreas Brake <A>
+Date:   Thu Nov 21 12:47:59 2013 -0500
+
+    changed djang_settings_module back to app.settings
+
+[33mcommit 608395749c2939634e6c08be35c1aceb43cff850[m
+Author: Andreas Brake <A>
+Date:   Thu Nov 21 01:51:23 2013 -0500
+
+    fixed another error
+
+[33mcommit 0a51a90c043fc9a34de45fdc0ab650584ab1ecf6[m
+Author: Andreas Brake <A>
+Date:   Thu Nov 21 01:48:02 2013 -0500
+
+    fixed a freakin syntax error
+
+[33mcommit 429065b52f57ef9e77a9d9f413b5378300277868[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 14:14:50 2013 -0500
+
+    attempt to revert to a working build. Plus added django_settings_module to application
+
+[33mcommit 370b39c8e25dc60633d56e91dd48c14e342fb371[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 14:01:10 2013 -0500
+
+    added django_settings_module path to __init.py__
+
+[33mcommit c9d5d746f49b13c9efb94dcfb88e597bc930a121[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 13:50:48 2013 -0500
+
+    added django_settings_module path set to manage.py
+
+[33mcommit ceb691ac8b58e4bfbd6bda30c0a7563fa5e60f85[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 13:07:09 2013 -0500
+
+    moved around the applications file
+
+[33mcommit 47f333d32059b6219a4e20c12a5dd7f90fc6d00c[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 02:36:28 2013 -0500
+
+    re-added @csrf_exempt issue is with the import and added POST check
+
+[33mcommit 3014b5088819b95e443785ae941f327e24b39aad[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 02:23:54 2013 -0500
+
+    re-added @csrf_exempt issue is with the import
+
+[33mcommit fee97d2f2c254d7da84f88cba2e01710552f4515[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 02:18:34 2013 -0500
+
+    attempt to fix csrf issue
+
+[33mcommit 3cc867d07945556e30cc8f4bf1a3d73239fe005a[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 01:11:21 2013 -0500
+
+    added Method_decorator to @csrf exempt
+
+[33mcommit 7ecf047f6434ca4ac51847c8bae6b2d6387c3406[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 01:06:05 2013 -0500
+
+    added admins
+
+[33mcommit e7be174a7cbd202dc8e1cecc4230e1f58cf64b7a[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 00:54:01 2013 -0500
+
+    added csrf import etc
+
+[33mcommit 402bf906092e5dfd3cf47e2e163ae5565713c9fc[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 00:44:41 2013 -0500
+
+    debug = true
+
+[33mcommit eb6dff8426e593c7fde19819939a2c22e2c72235[m
+Author: Andreas Brake <A>
+Date:   Wed Nov 20 00:40:05 2013 -0500
+
+    fixed views
+
+[33mcommit 3364115bfdb485b9caf7b0734e6be8679eb1bb3a[m
+Author: Andreas Brake <A>
+Date:   Tue Nov 19 15:57:52 2013 -0500
+
+    commented out failing cod
+
+[33mcommit 526e5492aa1b98acebff9d6a7fb87a3783641baa[m
+Author: Andreas Brake <A>
+Date:   Tue Nov 19 14:37:07 2013 -0500
+
+    added stuff
+
+[33mcommit a7bc9ac93262accbd7f0e145ccad361138e69fe2[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 23:17:15 2013 -0500
+
+    got learning to work locally
+
+[33mcommit aacaff059e0d7b439b05e6fb3b228d95322809be[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 22:30:56 2013 -0500
+
+    added csrf import
+
+[33mcommit edc49f3e534bbf9ff25d04c854b3b81f0694eaf1[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 22:27:24 2013 -0500
+
+    removed additional path
+
+[33mcommit a68de818d4f0d836f067a6dbe246e3f58fc74c29[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 22:21:16 2013 -0500
+
+    removed print, added additional path to PATH
+
+[33mcommit f85382b57f11152892cd88f89d18d6ae56235cc6[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 22:17:52 2013 -0500
+
+    added print to application
+
+[33mcommit f08e42a076990975d838f8f73666dbbc45156ee2[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 22:13:06 2013 -0500
+
+    very slow: reverting all changes
+
+[33mcommit ef4fba3cf6a60fd9610a9d7339f8c5d5b467d3fd[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 22:05:22 2013 -0500
+
+    un-commented sklearn import
+
+[33mcommit 088476034bf14aa6f6e0b6d79db6df624d183e4a[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 22:02:05 2013 -0500
+
+    commented imports
+
+[33mcommit 6d086a99606602589e65948d3be7165f979a218d[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:57:03 2013 -0500
+
+    removed from views and replaced path
+
+[33mcommit 349dbcd6e3d71ab3489530882ba052f54613227d[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:53:21 2013 -0500
+
+    removed extra path addition
+
+[33mcommit 8c43b0866d3dc7bfc171480792edf842861d2a85[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:46:37 2013 -0500
+
+    removed print statments
+
+[33mcommit cf38cb6ab655ab47e46181574b7679b8be36b26e[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:43:21 2013 -0500
+
+    expanded views
+
+[33mcommit 415113e2ff7ac684891a2c18e9fc854a95523108[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:39:54 2013 -0500
+
+    udpated application w/ a print. un-commented csrf import
+
+[33mcommit 7b72a9bc94def68351ee9f49f77ca771b3cc1f82[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:23:52 2013 -0500
+
+    added wsgi to path
+
+[33mcommit 44ec38dfc145f3e77e32cb754cd11b8c503224e4[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:19:01 2013 -0500
+
+    debug=true
+
+[33mcommit 8509282d2826a27697c31f66322cd604dc39c30d[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:05:01 2013 -0500
+
+    put back js
+
+[33mcommit 0aa5e8bf75307d1e6652750171dd09bbe442f111[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 21:01:39 2013 -0500
+
+    fixed application
+
+[33mcommit 960f131355de599d6908f67eb3f357845a7b3e54[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 20:56:00 2013 -0500
+
+    switched pages
+
+[33mcommit dd0b7464919d381801fcceb59feac40ca94efc0d[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 20:53:44 2013 -0500
+
+    removed print
+
+[33mcommit 6f8d8036ce6f7549aa78267e1796cab009b16ced[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 20:48:46 2013 -0500
+
+    fixed
+
+[33mcommit bf78846c1d1b1e90bd9460e5092fd7e793c8d046[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 20:46:49 2013 -0500
+
+    tweaked
+
+[33mcommit c6a3f90e27ace48e21e61be7ae41dd9dcfa4e899[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 16:20:01 2013 -0500
+
+    fully rewrote references
+
+[33mcommit 026112f9ef0413b67ad7a96e1bd44290168cfcf6[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 16:16:02 2013 -0500
+
+    tried re-naming the openshift folder
+
+[33mcommit 69751385a4a79ff6dc528a9f9139db7247513e24[m
+Author: Andreas Brake <A>
+Date:   Mon Nov 18 12:26:50 2013 -0500
+
+    fix1
