@@ -93,24 +93,33 @@ def machinelearningCurl(csv_file):
 
 	prediction_x = np.array(zip(d['radiation'], d['humidity'], d['temperature'], d['wind'])[32:])
 	demand_predictions = poly_svr.predict(prediction_x)
-
-	return demand_predictions
+	
+	energy = np.array(demand_predictions).tolist()
+	
+	csvOut = HttpResponse(content_type='text/csv')
+	writer = csv.writer(csvOut)
+	
+	writer.writerow(["spam",""])		
+	writer.writerow(["spam",""])
+	writer.writerow(["",""])
+	writer.writerow(["date","energy"])
+	
+	for i in range(0,len(energy)):
+		writer.writerow([d['date'][i],energy[i]])		
+	csvOut.close()
+	return csvOut
 
 #------------- curl interface ----------------
 
 @csrf_exempt
-def machine_interface(request):
-  #return render_to_response('home.html')
-  response = HttpResponse(content_type='text/plain')
-  
+def machine_interface(request):  
   if request.method == 'POST':
     file = request.FILES['file']
     demand = machinelearningCurl(file)
   else:
   	demand = 'Whelp, somethin done fucked up...'
 	
-  response.write(demand)
-  return response
+  return demand
 
 #------------------ pulse below --------------------
 
